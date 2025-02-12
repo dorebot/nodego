@@ -7,7 +7,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from colorama import init, Fore, Style
 import requests  # Standard requests library
-from solve_turnstile import solve_turnstile
+from solve_captcha import solve_turnstile
 
 init(autoreset=True)
 
